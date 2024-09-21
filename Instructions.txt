@@ -1,0 +1,41 @@
+Please Make sure to have python installed and pip command working.
+You can verify it by running following commands.
+
+python --version
+note: 3.10 is incompatible with some of the packages that come along with django.
+
+pip --version
+
+The video covers followig steps, please follow.
+
+1. Install Virualenv python package 
+- open command promt as Administrator
+- install a python package called virtualenv using "pip install virtualenv"
+note: if you don't open command prompt as administrator, the virtualenv command is not going to work.
+
+
+
+2. Create a virtual environment for our app and activate it
+- close the command promt and go to the folder where qna_app.zip file exists
+- Extract the folder qna_app.zip it should create qna_app folder.
+- go to address bar and type "cmd" and press enter, command prompt should be opened
+- type "virtualenv env" and press enter, it should create "env" folder.
+- to activate virualenv type "env\scripts\activate", "(env)" before address in command prompt should appear, it means virtuale env is activated.
+
+3. Install required python packages from requirements.txt file
+- now change command prompt directory using command "cd qna_app"
+- you can verify it by typing "dir" and pressing enter, you can see "manage.py" and "requirements.txt" files
+- now to install all required python packages for our app, you need to run command "pip install -r requirements.txt", it should download and install all the required python packages.
+
+5. Run local server
+- after installing python packages, you need to run the application (local server) using command "python manage.py runserver"
+- visit http://127.0.0.1:8000
+
+-you can visit admin panel by visiting http:127.0.0.1:8000/admin
+put "admin" as username and "Kingsmen786" as password.
+
+6. Close Server
+
+in command prompt use "Ctrl+c" it should close the server and the application will no longer be accessed.
+
+to Restart the application,  you need to go to the qna_app folder and follow from the last point of 2nd step which starts as (to activate virualenv ...).
