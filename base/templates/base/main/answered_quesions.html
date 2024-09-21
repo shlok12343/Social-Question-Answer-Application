@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block title %}
+Answered Quesions
+{% endblock title %}
+
+{% block body %}
+  
+<div class="my-5 row">
+    <div class="col-sm-2 text-center mt-4 bg-success fs-4 text-light"><strong>{{ request.user.username }}</strong></div>
+    <div class="col-sm-10 text-center mt-4 fs-4 text-light"><strong class="bg-danger px-4 py-1"></strong>
+    <div class="col-sm-10 text-center mt-4 fs-4 text-light"><strong class="bg-danger px-4 py-1">Answered Quesions</strong>
+    </div>
+</div>
+
+{% endblock body %}

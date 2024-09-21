@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+
+{% block title %}
+Login
+{% endblock title %}
+
+{% block body %}
+<h3 class="my-5">Login</h3>
+<form action="" method="POST">
+  {% csrf_token %}
+  <div class="row">
+    <div class="col-sm-6 col-md-2 mb-3">
+      <label class="form-label">Username</label>
+    </div>
+
+    <div class="col-sm-6 col-md-4 mb-3">
+      <input required name="username" type="text" class="form-control" id="" aria-describedby="usernameHelp">
+    </div>
+    
+
+    <div class="col-sm-6 col-md-4 mb-3">
+      <button type="submit" class="btn btn-primary me-auto">Enter</button>
+    </div>
+    <div class="col-sm-12">
+      <a href="{% url 'signup_page' %}">Create a new Account</a>
+    </div>
+  </div>
+</form>
+{% endblock body %}
