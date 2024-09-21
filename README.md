@@ -1,5 +1,5 @@
 # Student-Question-Answer-Application
-Question-Answer web application for students can post questions, and other students can provide answers. The application uses Django as the backend framework, Python for the logic, HTML for the front-end templates, and SQL for database management. It is designed to allow user authentication, question posting, and answering.
+Question-Answer web application for students can post questions, and other students can provide answers. Students can make their own account and follow accounts of other students by searching for their username. The application uses Django as the backend framework, Python for the logic, HTML for the front-end templates, and SQL for database management. It is designed to allow user authentication, question posting, and answering.
 Here is the requested README for your question-answer app:
 
 ## Technologies Used
@@ -62,9 +62,36 @@ Here is the requested README for your question-answer app:
    python manage.py runserver
    ```
 
+
+
 5. **Access the App**:
    Open a browser and go to `http://127.0.0.1:8000/` to view the app locally.
 
 
 
    ![qna students (updated)](https://github.com/user-attachments/assets/6c002026-d520-40f2-a5c7-0e45276cecb8)
+
+
+
+
+   ## User Interface pictures
+   
+<img width="1261" alt="Screenshot 2024-09-21 at 4 01 38 PM" src="https://github.com/user-attachments/assets/ceda602f-a108-4fe7-8798-6aec394ffe74">
+<img width="967" alt="Screenshot 2024-09-21 at 4 01 49 PM" src="https://github.com/user-attachments/assets/e5398432-8424-4bf1-bd44-8a14b56666a4">
+
+<img width="1220" alt="Screenshot 2024-09-21 at 4 02 05 PM" src="https://github.com/user-attachments/assets/0ec392f4-c0c9-44c4-b5bb-59f7771b1147">
+
+
+
+<img width="1151" alt="Screenshot 2024-09-21 at 4 02 16 PM" src="https://github.com/user-attachments/assets/0b6a5de9-a595-4bc9-b1b0-5194363dfba4">
+<img width="1061" alt="Screenshot 2024-09-21 at 4 02 27 PM" src="https://github.com/user-attachments/assets/cfd84204-ad4a-4f3e-b2a8-25bf734dbb89">
+
+
+
+
+
+
+
+
+
+   
